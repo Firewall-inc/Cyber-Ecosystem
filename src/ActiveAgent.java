@@ -1,6 +1,11 @@
-public class ActiveAgent extends NetworkNode{
+public abstract class ActiveAgent extends NetworkNode{
 
-    public ActiveAgent() {
-        super();
+    int speed;
+    int actionRange;
+
+    public ActiveAgent(int row, int col, int speed, int actionRange) {
+        super(row, col);
+        this.speed = speed;
+        this.actionRange = actionRange;
     }
 }
