@@ -1,6 +1,8 @@
+import models.DataCell;
+
 import java.awt.*;
 
-public class EncryptedVault extends DataCell{
+public class EncryptedVault extends DataCell {
 
     private int maxHP;
     private int currentHP;

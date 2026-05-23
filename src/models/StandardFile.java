@@ -1,6 +1,8 @@
+import models.DataCell;
+
 import java.awt.*;
 
-public class StandardFile extends DataCell{
+public class StandardFile extends DataCell {
 
     // This is the base color of a standard file when it is alive
     private static final Color BASE_COLOR = new Color(0, 255, 204);

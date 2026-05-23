@@ -1,6 +1,8 @@
+import models.DataCell;
+
 import java.awt.*;
 
-public class SystemCore extends DataCell{
+public class SystemCore extends DataCell {
 
     private boolean compromised;
 

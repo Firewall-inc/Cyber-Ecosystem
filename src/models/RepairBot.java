@@ -1,6 +1,9 @@
+import models.ActiveAgent;
+import models.DataCell;
+
 import java.awt.*;
 
-public class RepairBot extends ActiveAgent{
+public class RepairBot extends ActiveAgent {
 
     private static final Color BASE_COLOR = new Color(170, 221, 255);
 
