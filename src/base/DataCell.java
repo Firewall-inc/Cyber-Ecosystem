@@ -1,4 +1,4 @@
-package models;
+package base;
 
 public abstract class DataCell extends NetworkNode{
 

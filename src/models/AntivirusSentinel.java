@@ -1,4 +1,6 @@
-import models.ActiveAgent;
+package models;
+
+import base.ActiveAgent;
 
 import java.awt.*;
 

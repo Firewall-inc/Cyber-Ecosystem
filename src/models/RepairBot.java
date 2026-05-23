@@ -1,5 +1,7 @@
-import models.ActiveAgent;
-import models.DataCell;
+package models;
+
+import base.ActiveAgent;
+import base.DataCell;
 
 import java.awt.*;
 

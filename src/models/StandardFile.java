@@ -1,4 +1,6 @@
-import models.DataCell;
+package models;
+
+import base.DataCell;
 
 import java.awt.*;
 
