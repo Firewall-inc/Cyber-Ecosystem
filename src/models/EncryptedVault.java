@@ -1,4 +1,6 @@
-import models.DataCell;
+package models;
+
+import base.DataCell;
 
 import java.awt.*;
 
@@ -20,7 +22,7 @@ public class EncryptedVault extends DataCell {
 
     @Override
     public String getTypeName() {
-        return "EncryptedVault";
+        return "models.EncryptedVault";
     }
 
     public int getCurrentHP() { return currentHP; }

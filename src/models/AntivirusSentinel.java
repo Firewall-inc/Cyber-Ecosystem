@@ -1,4 +1,6 @@
-import models.ActiveAgent;
+package models;
+
+import base.ActiveAgent;
 
 import java.awt.*;
 
@@ -22,6 +24,6 @@ public class AntivirusSentinel extends ActiveAgent {
 
     @Override
     public String getTypeName() {
-        return "AntivirusSentinel";
+        return "models.AntivirusSentinel";
     }
 }

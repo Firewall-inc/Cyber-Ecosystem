@@ -1,5 +1,7 @@
-import models.ActiveAgent;
-import models.DataCell;
+package models;
+
+import base.ActiveAgent;
+import base.DataCell;
 
 import java.awt.*;
 
@@ -23,6 +25,6 @@ public class RepairBot extends ActiveAgent {
 
     @Override
     public String getTypeName() {
-        return "RepairBot";
+        return "models.RepairBot";
     }
 }

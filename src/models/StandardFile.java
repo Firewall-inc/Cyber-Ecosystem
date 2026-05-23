@@ -1,4 +1,6 @@
-import models.DataCell;
+package models;
+
+import base.DataCell;
 
 import java.awt.*;
 
@@ -20,7 +22,7 @@ public class StandardFile extends DataCell {
 
     @Override
     public String getTypeName() {
-        return "StandardFile";
+        return "models.StandardFile";
     }
 
 }
