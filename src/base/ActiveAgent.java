@@ -1,7 +1,9 @@
-public abstract class ActiveAgent extends NetworkNode{
+package base;
 
-    int speed;
-    int actionRange;
+public abstract class ActiveAgent extends NetworkNode {
+
+    private final int speed;
+    private final int actionRange;
 
     public ActiveAgent(int row, int col, int speed, int actionRange) {
         super(row, col);

@@ -1,3 +1,5 @@
+package base;
+
 public abstract class DataCell extends NetworkNode{
 
     protected boolean corrupted;

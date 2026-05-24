@@ -1,3 +1,7 @@
+package models;
+
+import base.ActiveAgent;
+
 import java.awt.*;
 
 public class AntivirusSentinel extends ActiveAgent {

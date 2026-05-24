@@ -1,21 +1,18 @@
+package base;
+
 import java.awt.*;
 
 public abstract class NetworkNode {
-    int health;
-    int row;
-    int col;
-    boolean isAlive;
+
+    protected int row;
+    protected int col;
+    protected boolean isAlive;
 
 
     public NetworkNode(int row, int col){
-        this.health = health;
         this.row = row;
         this.col = col;
         this.isAlive = true;
-    }
-
-    public int getHealth() {
-        return health;
     }
 
     public abstract Color getColor();
