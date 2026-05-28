@@ -28,4 +28,9 @@ public class EncryptedVault extends DataCell {
     public int getCurrentHP() { return currentHP; }
 
     public int getMaxHP() { return maxHP; }
+
+    @Override
+    public String toString() {
+        return "V";
+    }
 }

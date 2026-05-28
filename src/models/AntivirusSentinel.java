@@ -26,4 +26,11 @@ public class AntivirusSentinel extends ActiveAgent {
     public String getTypeName() {
         return "models.AntivirusSentinel";
     }
+
+    @Override
+    public String toString() {
+        return "S";
+    }
+
+
 }

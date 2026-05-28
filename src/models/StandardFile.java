@@ -25,4 +25,9 @@ public class StandardFile extends DataCell {
         return "models.StandardFile";
     }
 
+    @Override
+    public String toString() {
+        return "F";
+    }
+
 }
