@@ -12,7 +12,7 @@ public class AntivirusSentinel extends ActiveAgent {
     private boolean justDeletedTarget;
 
     public AntivirusSentinel(int row, int col, int scanRadius) {
-        super(row, col, 1, 1);  // speed=1, range=1
+        super(row, col, 1);  // range=1
         this.scanRadius = scanRadius;
         this.justDeletedTarget = false;
     }

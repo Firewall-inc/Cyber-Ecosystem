@@ -1,7 +1,7 @@
 package models;
 
 import base.ActiveAgent;
-import base.DataCell;
+import base.NetworkNode;
 
 import java.awt.*;
 
@@ -10,13 +10,16 @@ public class RepairBot extends ActiveAgent {
     private static final Color BASE_COLOR = new Color(170, 221, 255);
 
     private int repairPower;
-    private DataCell currentTarget;
+    private NetworkNode currentTarget;
 
     public RepairBot(int row, int col, int repairPower) {
-        super(row, col, 1, 1);
+        super(row, col, 100, 5, 1);
         this.repairPower = repairPower;
         this.currentTarget = null;
     }
+
+    public int getRepairPower() { return repairPower; }
+    public void setRepairPower(int repairPower) { this.repairPower = repairPower; }
 
     @Override
     public Color getColor() {
