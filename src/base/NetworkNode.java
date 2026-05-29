@@ -33,7 +33,7 @@ public abstract class NetworkNode {
     /** @return the color representing this node's current state */
     public abstract Color getColor();
 
-    /** @return human-readable name of this node type */
+    /** @return readable name of this node type */
     public abstract String getTypeName();
 
     /** @return single-character representation for text-based display */
@@ -59,7 +59,7 @@ public abstract class NetworkNode {
     /** @return true if this node has been fully corrupted */
     public boolean isCorrupted() { return isCorrupted; }
 
-    /** @return true if a RepairBot is currently working on this node */
+    /** @return true if a RepairBot is currently repairing this node */
     public boolean isBeingRepaired() { return beingRepaired; }
 
     /**
@@ -70,11 +70,11 @@ public abstract class NetworkNode {
     public void setBeingRepaired(boolean status) { this.beingRepaired = status; }
 
     /**
-     * Interpolates between two colors based on remaining HP.
+     * Changes between two colors based on remaining HP.
      *
      * @param baseColor color at full health
      * @param deadColor color at zero health
-     * @return blended color representing current health
+     * @return blended color that represents current health
      */
     protected Color getHealthColor(Color baseColor, Color deadColor) {
         int r = deadColor.getRed() + (baseColor.getRed() - deadColor.getRed()) * currentHP / maxHP;

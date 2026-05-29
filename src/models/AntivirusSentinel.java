@@ -4,6 +4,9 @@ import base.ActiveAgent;
 
 import java.awt.*;
 
+/**
+ * Defensive agent that scans the grid for malware and attacks it.
+ */
 public class AntivirusSentinel extends ActiveAgent {
 
     private static final Color BASE_COLOR = new Color(0, 170, 255);

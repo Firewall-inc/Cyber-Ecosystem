@@ -4,6 +4,9 @@ import base.DataCell;
 
 import java.awt.*;
 
+/**
+ * Critical target node. corruption triggers increased malware aggression.
+ */
 public class SystemCore extends DataCell {
 
     private static final Color BASE_COLOR = new Color(255, 215, 0);

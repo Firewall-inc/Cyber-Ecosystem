@@ -4,6 +4,9 @@ import base.DataCell;
 
 import java.awt.*;
 
+/**
+ * Highly secure data node that has higher HP and is slower to repair.
+ */
 public class EncryptedVault extends DataCell {
 
     private static final Color BASE_COLOR = new Color(155, 0, 245);

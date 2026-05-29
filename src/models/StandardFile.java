@@ -4,6 +4,9 @@ import base.DataCell;
 
 import java.awt.*;
 
+/**
+ * Basic data node and primary fuel for malware spread. Low HP, nothing special about it.
+ */
 public class StandardFile extends DataCell {
 
     private static final Color BASE_COLOR = new Color(0, 255, 204);
