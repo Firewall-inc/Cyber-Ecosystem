@@ -30,4 +30,6 @@ public abstract class NetworkNode {
     public boolean isAlive() { return isAlive; }
 
     public void kill() { this.isAlive = false; }
+
+    public abstract String toString();
 }

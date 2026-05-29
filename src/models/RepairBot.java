@@ -27,4 +27,9 @@ public class RepairBot extends ActiveAgent {
     public String getTypeName() {
         return "models.RepairBot";
     }
+
+    @Override
+    public String toString() {
+        return "R";
+    }
 }

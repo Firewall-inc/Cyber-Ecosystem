@@ -22,4 +22,9 @@ public class SystemCore extends DataCell {
     public String getTypeName() {
         return "System Core";
     }
+
+    @Override
+    public String toString() {
+        return "C";
+    }
 }
